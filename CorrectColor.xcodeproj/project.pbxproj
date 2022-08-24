@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		930C56F628B6730100D53452 /* CorrectColorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C56F528B6730100D53452 /* CorrectColorApp.swift */; };
-		930C56F828B6730100D53452 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C56F728B6730100D53452 /* ContentView.swift */; };
+		930C56F828B6730100D53452 /* ColorChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C56F728B6730100D53452 /* ColorChangeView.swift */; };
 		930C56FA28B6730200D53452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930C56F928B6730200D53452 /* Assets.xcassets */; };
 		930C56FD28B6730200D53452 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 930C56FC28B6730200D53452 /* Preview Assets.xcassets */; };
 		930C570728B6730200D53452 /* CorrectColorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930C570628B6730200D53452 /* CorrectColorTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		930C56F228B6730100D53452 /* CorrectColor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CorrectColor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		930C56F528B6730100D53452 /* CorrectColorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorrectColorApp.swift; sourceTree = "<group>"; };
-		930C56F728B6730100D53452 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		930C56F728B6730100D53452 /* ColorChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangeView.swift; sourceTree = "<group>"; };
 		930C56F928B6730200D53452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		930C56FC28B6730200D53452 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		930C570228B6730200D53452 /* CorrectColorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CorrectColorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -94,9 +94,8 @@
 		930C56F428B6730100D53452 /* CorrectColor */ = {
 			isa = PBXGroup;
 			children = (
-				930C56F528B6730100D53452 /* CorrectColorApp.swift */,
-				930C56F728B6730100D53452 /* ContentView.swift */,
-				930C56F928B6730200D53452 /* Assets.xcassets */,
+				930C571F28B6747C00D53452 /* resources */,
+				930C56F728B6730100D53452 /* ColorChangeView.swift */,
 				930C56FB28B6730200D53452 /* Preview Content */,
 			);
 			path = CorrectColor;
@@ -125,6 +124,15 @@
 				930C571228B6730200D53452 /* CorrectColorUITestsLaunchTests.swift */,
 			);
 			path = CorrectColorUITests;
+			sourceTree = "<group>";
+		};
+		930C571F28B6747C00D53452 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				930C56F528B6730100D53452 /* CorrectColorApp.swift */,
+				930C56F928B6730200D53452 /* Assets.xcassets */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				930C56F828B6730100D53452 /* ContentView.swift in Sources */,
+				930C56F828B6730100D53452 /* ColorChangeView.swift in Sources */,
 				930C56F628B6730100D53452 /* CorrectColorApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
