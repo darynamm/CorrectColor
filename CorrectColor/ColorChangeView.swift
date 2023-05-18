@@ -20,6 +20,7 @@ struct ColorChangeView: View
             {
                 Text("Color app!")
                     .fontWeight(.heavy)
+                
                     .foregroundColor(Color.white)
                 Button("click here", action: changeBackground)
                     .foregroundColor(Color.white)
